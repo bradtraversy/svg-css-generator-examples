@@ -1,6 +1,6 @@
 # CSS & SVG Generator Examples
 
-Tiny project examples based on 10 different CSS and SVG generators for various effects. Inspired by this [tweet](https://twitter.com/saviomartin7/status/1500061855212990467) by [Savio Martin's](https://twitter.com/saviomartin7)
+Tiny project examples based on 10 different CSS and SVG generators for various effects. Inspired by this [tweet](https://twitter.com/saviomartin7/status/1500061855212990467) by [Savio Martin](https://twitter.com/saviomartin7)
 
 |       Effect        | Generator URL                                                                                              | Live Demo                                                              |
 | :-----------------: | ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
