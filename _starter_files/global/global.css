@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Navigation */
+.nav {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  transform: translateX(180px);
+  transition: 0.3s ease-in;
+
+  background: rgba(0, 0, 0, 0.5);
+  border-top-left-radius: 20px;
+  color: #fff;
+  width: 200px;
+}
+
+.nav:hover {
+  cursor: pointer;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: skyblue;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 20px;
+  line-height: 1.8;
+}
+
+.nav.open {
+  transform: translateX(0);
+}
+
+/* Link */
+.link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.link a {
+  color: skyblue;
+}
+
+.home-container {
+  background-color: steelblue;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  padding: 0 30px;
+}
+
+.home-container h1 {
+  font-size: xxx-large;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  font-size: 22px;
+}
+
+.home-container a {
+  background-color: #333;
+  color: white;
+  height: 50px;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.home-container a .fa-github {
+  margin-right: 10px;
+}
+
+.home-container a:hover {
+  opacity: 0.8;
+}

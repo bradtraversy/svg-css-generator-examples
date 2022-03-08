@@ -1,0 +1,38 @@
+body {
+  color: #fff;
+
+  /* Generated Gradient */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    357deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 600px;
+  padding: 20px;
+  font-size: 21px;
+  text-align: center;
+}
+
+.card img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.card h1 {
+  margin-bottom: 10px;
+}
