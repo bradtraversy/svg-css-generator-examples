@@ -1,1 +1,30 @@
-/* Add CSS */
+body {
+  color: #fff;
+  background-color: #000;
+  /* Generated Gradient */
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 600px;
+  padding: 20px;
+  font-size: 21px;
+  text-align: center;
+}
+
+.card img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.card h1 {
+  margin-bottom: 10px;
+}

@@ -1,1 +1,40 @@
-/* Add CSS */
+body {
+  background-color: #f3f3f3;
+}
+
+.container {
+  max-width: 100%;
+  height: 100vh;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 600px;
+  text-align: center;
+  background-color: #fff;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.card__img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card__body {
+  padding: 20px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.shadow {
+  /* Generated Shadow */
+}

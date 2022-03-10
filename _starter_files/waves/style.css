@@ -1,1 +1,21 @@
-/* Add CSS */
+h1 {
+  color: #6c63ff;
+}
+
+p {
+  font-size: 18px;
+}
+
+img {
+  width: 30%;
+  position: absolute;
+  top: 130px;
+  right: 17%;
+}
+
+.text {
+  position: absolute;
+  top: 250px;
+  left: 10%;
+  width: 400px;
+}

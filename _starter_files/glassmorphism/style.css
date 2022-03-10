@@ -1,1 +1,34 @@
-/* Add CSS */
+body {
+  color: #fff;
+  background-color: #000000;
+  /* Generated SVG Background */
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 600px;
+  padding: 20px;
+  text-align: center;
+  font-size: 21px;
+}
+
+.card img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.card h1 {
+  margin-bottom: 10px;
+}
+
+/* Generated Glass */
+.glass {
+}
