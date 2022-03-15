@@ -1,41 +1,21 @@
 body {
   background-color: #9390ff;
+  color: #fff;
 }
 
-.blob-container {
-  width: 100%;
-  height: 600px;
-  font-size: 18px;
-  position: relative;
-}
-
-.blob-container svg:nth-of-type(1) {
+svg {
   width: 500px;
 }
 
-.blob-container svg:nth-of-type(2) {
-  width: 300px;
-  position: absolute;
-  top: 30px;
-  left: 330px;
-}
-
-.blob-container svg:nth-of-type(3) {
-  width: 300px;
-  position: absolute;
-  top: 200px;
-  left: 400px;
-}
-
-.blob-container h1 {
-  color: #6c63ff;
-}
-
 .text {
+  font-size: 21px;
   position: absolute;
-  width: 250px;
   top: 200px;
   left: 135px;
+}
+
+.text h1 {
+  font-size: 60px;
 }
 
 img {

@@ -1,9 +1,6 @@
 h1 {
+  font-size: 60px;
   color: #6c63ff;
-}
-
-p {
-  font-size: 18px;
 }
 
 img {
@@ -14,6 +11,7 @@ img {
 }
 
 .text {
+  font-size: 21px;
   position: absolute;
   top: 250px;
   left: 10%;
